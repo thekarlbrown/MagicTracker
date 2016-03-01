@@ -11,7 +11,7 @@
 <script src="js/jquery-2.2.1.min.js"></script>
 <script src="js/mtgtracker.js"></script>
 <script src="js/materialize.js"></script>
-<nav>
+  <nav>
     <div class="light-blue accent-3 nav-wrapper">
       <a href="" class="brand-logo">MtgTracker</a>
 	  <a href="" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -31,5 +31,16 @@
       </ul>
     </div>
   </nav>
+<div class="row">
+ <div class="col s12 m5 l4"><p>Evil eye of orms by gore</p></div>
+ <div class="col s12 m4 l4"><p>Champions of Kamigawa Kamigawa</p></div>
+ <div class="col s12 m3 l4"><p>210.21 High 125.12 Mid 101.23 Low</p></div>
+ <div class="col s3 m3 l2"><p>Target High</p></div>
+ <div class="col s3 m3 l2"><p>TCG Hi/Mid/Low</p></div>
+ <div class="col s3 m3 l2"><p>Target Low</p></div>
+ <div class="col s3 m3 l2"><p>TCG Hi/Mid/Low</p></div>
+ <div class="col s6 m6 l2"><a class="waves-effect waves-light btn yellow darken-4">Deactivate</a></div>
+ <div class="col s6 m6 l2"><a class="waves-effect waves-light btn red lighten-1">Delete</a></div>
+</div>
 </body>
 </html>
