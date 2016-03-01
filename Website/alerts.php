@@ -32,15 +32,40 @@
     </div>
   </nav>
 <div class="row">
- <div class="col s12 m5 l4"><p>Evil eye of orms by gore</p></div>
- <div class="col s12 m4 l4"><p>Champions of Kamigawa Kamigawa</p></div>
- <div class="col s12 m3 l4"><p>210.21 High 125.12 Mid 101.23 Low</p></div>
- <div class="col s3 m3 l2"><p>Target High</p></div>
- <div class="col s3 m3 l2"><p>TCG Hi/Mid/Low</p></div>
- <div class="col s3 m3 l2"><p>Target Low</p></div>
- <div class="col s3 m3 l2"><p>TCG Hi/Mid/Low</p></div>
- <div class="col s6 m6 l2"><a class="waves-effect waves-light btn yellow darken-4">Deactivate</a></div>
- <div class="col s6 m6 l2"><a class="waves-effect waves-light btn red lighten-1">Delete</a></div>
+ <div class="col s12 m5 l4"><p style="font-weight: bold">Evil eye of orms by gore</p></div>
+ <div class="col s12 m4 l4"><p style="font-style: italic">Champions of Kamigawa Kamigawa</p></div>
+ <div class="col s12 m3 l4"><p>210.21 TCGHigh 125.12 TCGMid 101.23 TCGLow</p></div>
+ <div class="input-field col s6 m3 l2">
+          <input id="target_high" type="text" onkeypress='return (event.charCode >= 48 && event.charCode <= 57) || event.charCode == 46'>
+          <label for="target_high">Price Alert High</label>
+        </div>
+ <div class="input-field col s6 m3 l2">
+ <select id="highmidlow-high">
+  <option value="0">TCG Low</option>
+  <option value="1" selected>TCG Mid</option>
+  <option value="2">TCG High</option>
+ </select>
+ <label>Price Guide</label>
+ </div>
+ <div class="input-field col s6 m3 l2">
+          <input id="target_low" type="text" onkeypress='return (event.charCode >= 48 && event.charCode <= 57) || event.charCode == 46'>
+          <label for="target_low">Price Alert Low</label>
+        </div>
+ <div class="input-field col s6 m3 l2">
+ <select id="highmidlow-low">
+  <option value="0">TCG Low</option>
+  <option value="1" selected>TCG Mid</option>
+  <option value="2">TCG High</option>
+ </select>
+ <label>Price Guide</label>
+ </div>
+ <div class="col s8 m6 l2 switch" style="text-align: center"><label>
+      Deactivated
+      <input type="checkbox">
+      <span class="lever"></span>
+      Activated
+    </label></div>
+ <div class="col s4 m6 l2" style="text-align: center"><a class="waves-effect waves-light btn red lighten-1">Delete</a></div>
 </div>
 </body>
 </html>
