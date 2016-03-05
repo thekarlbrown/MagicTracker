@@ -5,12 +5,14 @@
 <title>Track A Card</title>
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+<link rel="stylesheet" href="css/easy-autocomplete.min.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
 <script src="js/jquery-2.2.1.min.js"></script>
 <script src="js/mtgtracker.js"></script>
 <script src="js/materialize.js"></script>
+<script src="js/jquery.easy-autocomplete.min.js"></script>
 <nav>
     <div class="light-blue accent-3 nav-wrapper">
       <a href="" class="brand-logo">MtgTracker</a>
