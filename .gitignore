@@ -1,7 +1,10 @@
 # Website
 Website/css/materialize.css
 Website/css/materialize.min.css
+Website/css/easy-autocomplete.min.css
 Website/font/*
 Website/js/jquery-2.2.1.min.js
 Website/js/materialize.js
 Website/js/materialize.min.js
+Website/js/jquery.easy-autocomplete.min.js
+
