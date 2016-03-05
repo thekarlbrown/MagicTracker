@@ -74,7 +74,7 @@
  
  <div class="col s12 m5 l4"><p style="font-weight: bold;text-align: center;">Tarmogoyf</p></div>
  <div class="col s12 m4 l4"><p style="font-style: italic;text-align: center;">Future Sight</p></div>
- <div class="col s12 m3 l4"><p><span style="color: red;">149.99 TCGLow</span><span style="color: blue;"> 189.99 TCGMid</span><span style="color: green;"> 222.1 TCGHigh </span></p></div>
+ <div class="col s12 m3 l4"><p><span style="color: red;">149.99 TCGLow</span><span style="color: blue;"> 189.99 TCGMid</span><span style="color: green;"> 222.19 TCGHigh </span></p></div>
  <div class="input-field col s6 m3 l2">
           <input id="target_high" type="text" onkeypress='return (event.charCode >= 48 && event.charCode <= 57) || event.charCode == 46'>
           <label for="target_high">Price Alert High</label>
