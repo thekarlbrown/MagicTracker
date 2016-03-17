@@ -33,6 +33,12 @@
 				</ul>
 			</div>
 		</nav>
-		<input id="searchCards"/>
+		<input id="cardSet" type="hidden" />
+		<input id="cardMultiverseID" type="hidden" />
+		<input id="searchCards" style="width: 95%;" placeholder="Search for a Card"/>
+		<img id="cardImage" style="display: none" />
+		<div class="row">
+		
+		</div>	
 	</body>
 </html>
