@@ -36,9 +36,17 @@
 		<input id="cardSet" type="hidden" />
 		<input id="cardMultiverseID" type="hidden" />
 		<input id="searchCards" style="width: 95%;" placeholder="Search for a Card"/>
-		<img id="cardImage" style="display: none" />
-		<div class="row">
-		
+		<div class="row" id="displaySection" style="display: none">
+			<div class="col s12 m4 l4"> 
+				<img id="cardImage"/> 
+			</div>
+			<div class="col s12 m8 l8"> 
+				<div style="text-align: center;"> 
+					<span style="font-style: italic">Card: </span><p id="cardInfoName" style="white-space: pre; display: inline;"></p><span style="font-style: italic">Set: </span><p id="cardInfoSet" style="white-space: pre;display: inline"></p>
+				</div>
+			</div>
 		</div>	
+		
+		
 	</body>
 </html>

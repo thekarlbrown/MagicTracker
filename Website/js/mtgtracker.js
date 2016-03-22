@@ -14,7 +14,9 @@ $(document).ready(function(){
 			$('#cardSet').val($('#searchCards').getSelectedItemData().set);
 			$('#cardMultiverseID').val($('#searchCards').getSelectedItemData().multiverseid);
 		    $('#cardImage').attr("src", "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=" + $('#cardMultiverseID').val() + "&type=card");
-			$('#cardImage').show();
+			$('#cardInfoName').text("  " + $('#searchCards').getSelectedItemData().name + "   ---   ");
+			$('#cardInfoSet').text("  " + $('#searchCards').getSelectedItemData().set);
+			$('#displaySection').show();
 		}
 	},
     template: {
