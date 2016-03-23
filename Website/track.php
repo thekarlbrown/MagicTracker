@@ -38,11 +38,17 @@
 		<input id="searchCards" style="width: 95%;" placeholder="Search for a Card"/>
 		<div class="row" id="displaySection" style="display: none">
 			<div class="col s12 m4 l4"> 
-				<img id="cardImage"/> 
+				<img id="cardImage" style="margin: auto; display: block;"/> 
 			</div>
 			<div class="col s12 m8 l8"> 
 				<div style="text-align: center;"> 
-					<span style="font-style: italic">Card: </span><p id="cardInfoName" style="white-space: pre; display: inline;"></p><span style="font-style: italic">Set: </span><p id="cardInfoSet" style="white-space: pre;display: inline"></p>
+					<span style="font-style: italic">Card: </span><p id="cardInfoName" style="white-space: pre; display: inline;"></p>
+					<br>
+					<span style="font-style: italic">Set: </span><p id="cardInfoSet" style="white-space: pre;display: inline"></p>
+					<p id="cardInfoTCGLow" style="color: red;"></p>
+					<p id="cardInfoTCGMid" style="color: blue;"></p>
+					<p id="cardInfoTCGHigh" style="color: green;"></p>
+					<a class="waves-effect waves-light btn-large">Track This Card</a>
 				</div>
 			</div>
 		</div>	
